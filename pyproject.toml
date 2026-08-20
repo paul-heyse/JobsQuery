@@ -1,0 +1,17 @@
+[project]
+name = "jobsquery"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "paul-dottie", email = "105995806+paul-dottie@users.noreply.github.com" }
+]
+requires-python = ">=3.14.7"
+dependencies = []
+
+[project.scripts]
+jobsquery = "jobsquery:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
